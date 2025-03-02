@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Computer Engineering Journey</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm ANOKYE AGYABENG!</h1>
+        <h2>Why I Chose Computer Engineering</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#reasons">Why Computer Engineering</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h3>About Me</h3>
+            <p>Hi! My name is Agyabeng Anokye, and I'm passionate about technology and innovation. I love coding, problem-solving, and creating solutions that can make a difference in the world. With a strong analytical mindset and a keen eye for both functionality and aesthetics, I enjoy the challenge of solving complex problems and developing engaging web applications.</p>
+        </section>
+        <section id="reasons">
+            <h3>Why I Chose Computer Engineering</h3>
+            <p>Choosing computer engineering was a natural fit for me, driven by my love for technology and my desire to contribute to the ever-evolving tech landscape. Here are some reasons why I decided to pursue this field:</p>
+            <ul>
+                <li><strong>Problem-Solving:</strong> I thrive on tackling complex challenges and finding innovative solutions.</li>
+                <li><strong>Creativity:</strong> The blend of creativity and logic in computer engineering allows me to design and develop unique and impactful projects.</li>
+                <li><strong>Endless Opportunities:</strong> The tech industry offers a wide range of career paths, from software development to hardware engineering, ensuring continuous growth and learning.</li>
+                <li><strong>Impact:</strong> Technology has the power to change the world, and I am excited to be part of that transformative journey.</li>
+                <li><strong>Community:</strong> Being part of a collaborative and forward-thinking community that values innovation and progress.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 AGYABENG. All rights reserved.</p>
+    </footer>
+    <script>
+        // Add interactivity (Example: Smooth scrolling)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
